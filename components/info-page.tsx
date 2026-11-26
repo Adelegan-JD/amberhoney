@@ -1,0 +1,6 @@
+import Link from "next/link";
+import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
+const wa="https://wa.me/2349079790073?text=Hello%20Amber%20Honey!%20I%20would%20like%20to%20make%20an%20enquiry.";
+export default function InfoPage({eyebrow,title,highlight,description,details}:{eyebrow:string;title:string;highlight:string;description:string;details:string[]}) {
+ return <main className="info-page"><header className="info-header"><Link className="brand" href="/"><span className="brand-mark">✳</span><span>AMBER <b>HONEY</b><small>BY AMBER HARVEST VENTURES</small></span></Link><Link className="header-cta" href="/">Back to home <ArrowLeft size={15}/></Link></header><section className="info-hero"><div className="eyebrow"><span/>{eyebrow}</div><h1>{title}<br/><em>{highlight}</em></h1><p>{description}</p><div className="info-details">{details.map(d=><div key={d}><span>✳</span>{d}</div>)}</div><a className="button button-dark" href={wa} target="_blank" rel="noreferrer">Talk to our team <MessageCircle size={16}/></a><p className="back-link"><Link href="/"><ArrowLeft size={14}/> Return to the Amber Honey homepage</Link></p></section><footer><span>© {new Date().getFullYear()} Amber Harvest Ventures</span><span>Nature’s Goodness. Purely Yours.</span></footer></main>;
+}
