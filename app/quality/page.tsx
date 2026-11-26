@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="OUR APPROACH" title="Thoughtful from" highlight="source to shelf." description="Our work begins with beekeeper relationships and continues through processing and packaging. We are working through the applicable product registration process." details={["Honey sourced from beekeepers","Processed and packaged by our team","Quality and regulatory processes being developed"]}/>}
