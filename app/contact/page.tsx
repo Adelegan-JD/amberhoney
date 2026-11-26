@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="CONTACT AMBER HONEY" title="Let’s make it" highlight="a little sweeter." description="For product questions, orders, delivery enquiries or partnerships, reach us directly on WhatsApp." details={["WhatsApp: +234 907 979 0073","International format: +2349079790073","WhatsApp-first enquiries and orders"]}/>}
