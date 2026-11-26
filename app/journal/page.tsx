@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="THE HONEY JOURNAL" title="A little more about" highlight="honey." description="Our journal will share stories about beekeeping, honey sourcing, responsible handling and the people behind Amber Honey." details={["Beekeepers and the work they do","From harvest to packaged honey","How we are building Amber Honey responsibly"]}/>}
