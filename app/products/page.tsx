@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="OUR HONEY" title="Find your perfect" highlight="pour." description="Explore our current pack sizes. Message our team to confirm availability, pricing and delivery arrangements before ordering." details={["250ml — ₦3,500","350ml — ₦5,000","500ml — ₦7,500","1 litre — ₦15,000"]}/>}
