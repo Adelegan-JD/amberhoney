@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="WHOLESALE & DISTRIBUTION" title="Let’s grow" highlight="together." description="We welcome enquiries from retailers, supermarkets, wholesalers and distributors. Tell us about your business and expected volumes." details={["Retail and supermarket enquiries","Wholesale and distribution enquiries","Availability and terms discussed directly"]}/>}
