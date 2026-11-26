@@ -25,7 +25,7 @@ export default function Home() {
     <div className="announcement">A little golden goodness, delivered with care <span>✳</span></div>
     <header className="site-header">
       <a className="brand" href="#home" aria-label="Amber Honey home"><span className="brand-mark">✳</span><span>AMBER <b>HONEY</b><small>BY AMBER HARVEST VENTURES</small></span></a>
-      <nav><a href="#story">Our story</a><a href="#products">Our honey</a><a href="#quality">Our approach</a><a href="#wholesale">Wholesale</a></nav>
+      <nav><a href="/about">Our story</a><a href="/products">Our honey</a><a href="/quality">Our approach</a><a href="/journal">Journal</a><a href="/wholesale">Wholesale</a></nav>
       <a className="header-cta" href={wa} target="_blank" rel="noreferrer">Order on WhatsApp <ArrowRight size={15}/></a>
       <a className="mobile-menu" href="#products" aria-label="Browse products"><Menu /></a>
     </header>
