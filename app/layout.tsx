@@ -4,6 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Amber Honey | Nature’s Goodness. Purely Yours.",
   description: "Discover Amber Honey by Amber Harvest Ventures. Explore our honey sizes and enquire or order directly on WhatsApp.",
+  metadataBase: new URL("https://amberhoney.vercel.app"),
+  alternates: { canonical: "https://amberhoney.vercel.app" },
   openGraph: {
     title: "Amber Honey",
     description: "Nature’s Goodness. Purely Yours.",
