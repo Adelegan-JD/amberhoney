@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="CORPORATE ORDERS" title="A thoughtful gift," highlight="beautifully shared." description="For corporate gifting and bulk enquiries, contact our team to discuss quantities, packaging possibilities and lead times." details={["Corporate and event enquiries","Bulk quantity discussions","Packaging options subject to confirmation"]}/>}
