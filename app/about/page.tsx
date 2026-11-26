@@ -1,0 +1,2 @@
+import InfoPage from "@/components/info-page";
+export default function Page(){return <InfoPage eyebrow="OUR STORY" title="A brand rooted in" highlight="nature." description="Amber Honey is a honey brand from Amber Harvest Ventures. We work with beekeepers to source raw honey, then process and package it with care." details={["Built around beekeeper relationships","A focus on careful processing and presentation","Growing with our customers and partners"]}/>}
